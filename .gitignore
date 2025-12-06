@@ -1,0 +1,50 @@
+# Virtual environments
+*env
+venv/
+.venv/
+env/
+*.env/
+
+# Sensitive files
+*.pem
+*.key
+*.secret
+secrets.yml
+vault-password.txt
+
+# Inventory files with real IPs/hosts
+inventory.ini
+inventory/*/hosts.ini
+inventory/*/group_vars/all.yml
+group_vars/all.yml
+host_vars/*.yml
+!*.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Ansible
+*.retry
+.vault_pass
+.ansible/
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Build artifacts
+*.log
+*.tar.gz
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.iml
