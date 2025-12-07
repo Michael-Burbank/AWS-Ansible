@@ -50,3 +50,4 @@ Thumbs.db
 *.iml
 AWS-Ansible.code-workspace
 .prettierrc
+docs/Deployment.txt
